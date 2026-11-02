@@ -80,3 +80,11 @@ Herstellers stammt (nicht aus der Signaturdatei selbst – die könnte ja gefäl
 - Jeder Text braucht mindestens `de`.
 - Jede Variante braucht eine Prüfsumme. `md5` ist erlaubt, erzeugt aber eine Warnung.
 - Unbekannte Felder sind Fehler (Tippfehler wie `"chekcsum"` fallen so sofort auf).
+
+## Hersteller ohne Prüfsumme (`direct` + `https_origin`)
+
+Nur für Hersteller, die wirklich keine Prüfsummen veröffentlichen (z. B. Windows Server
+Evaluation). Nach allen Weiterleitungen muss die Datei per HTTPS von einem der exakt angegebenen
+Server kommen. Die App kennzeichnet solche Einträge gelb als „Nur Herkunft geprüft“.
+Details: Abschnitt `direct`/`https_origin` in `docs/KATALOG.md` im App-Repo (Architektur E53).
+**Braucht SealFlash ≥ 0.4.**
