@@ -1,7 +1,7 @@
 # Katalogformat
 
 Der Katalog ist eine JSON-Datei (`catalog.json`). Das maßgebliche Format ist das
-JSON-Schema `catalog.schema.json`; es wird im [App-Repo](https://github.com/xHellPhoenix/bootforge) aus `crates/bootforge-core/src/catalog/model.rs`
+JSON-Schema `catalog.schema.json`; es wird im [App-Repo](https://github.com/xHellPhoenix/sealflash) aus `crates/sealflash-core/src/catalog/model.rs`
 generiert. Editoren wie VS Code nutzen es automatisch (wegen `"$schema"` in der Datei) für
 Autovervollständigung und Fehlermarkierungen.
 
