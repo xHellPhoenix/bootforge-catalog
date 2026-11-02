@@ -1,9 +1,9 @@
-# BootForge-Katalog
+# SealFlash-Katalog
 
-Der Distro-Katalog für [BootForge](https://github.com/xHellPhoenix/bootforge). Die App lädt beim Start
+Der Distro-Katalog für [SealFlash](https://github.com/xHellPhoenix/sealflash). Die App lädt beim Start
 
 ```
-https://raw.githubusercontent.com/xHellPhoenix/bootforge-catalog/main/catalog.json
+https://raw.githubusercontent.com/xHellPhoenix/sealflash-catalog/main/catalog.json
 ```
 
 (nur über HTTPS). Ist das nicht möglich, nutzt sie den zuletzt geladenen Katalog aus dem Cache und
